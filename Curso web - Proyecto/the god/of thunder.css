@@ -1,0 +1,79 @@
+@charset "utf-8";
+*{ box-sizing: border-box; }
+
+#cabecera { grid-area: cabecera; }
+#logotipo { grid-area: logotipo; }
+#titulo { grid-area: titulo; }
+#cuerpo { grid-area: cuerpo; }
+#menulateral { grid-area: menulateral }
+#inicio { grid-area: inicio; }
+#menuarticulos { grid-area: articulos; }
+#menunoticias { grid-area: noticias; }
+#menumedia { grid-area: media; }
+#menuautor { grid-area: autor; }
+#principal { grid-area: principal }
+#pie { grid-area: pie; }
+#nombre { grid-area: nombre; }
+#telefono { grid-area: telefono; }
+#correo { grid-area: correo; }
+#contacto { grid-area: contacto; }
+#contenedor {
+	display: grid;
+	grid-template-areas:
+		'cabecera cabecera'
+		'cuerpo cuerpo'
+		'pie pie';
+	grid-gap: 10px;
+	background-color: #8EF749;
+	padding: 10px;
+}
+#cabecera {
+	display: grid;
+	grid-template-areas:
+		'logotipo titulo';
+	grid-gap: 10px;
+	background-color: #F38C40;
+	padding: 10px;
+}
+#cuerpo {
+	display: grid;
+	grid-template-areas:
+		'menulateral principal';
+	grid-gap: 10px;
+	background-color: #F38C40;
+	padding: 10px;
+}
+#menulateral {
+	display: grid;
+	grid-template-areas:
+		'inicio'
+		'articulos'
+		'noticias'
+		'media'
+		'autor';
+	grid-gap: 10px;
+	background-color: #F38C40;
+	padding:10px;
+}
+#pie {
+	display: grid;
+	grid-template-areas:
+		'nombre nombre'
+		'telefono contacto'
+		'correo contacto';
+	grid-gap: 10px;
+	background-color: #F38C40;
+	padding: 10px;
+}
+
+#titulo {
+	font-size: 75px; 
+	font-weight: bold; 
+}
+#logotipo {
+	margin-top: 23px;
+	margin-left: 23px;
+}
+#menulateral li {
+	
+}

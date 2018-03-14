@@ -1,0 +1,54 @@
+@charset "utf-8";
+body {
+	background-image: url("img/Thors.jpg");
+	background-repeat: no-repeat; 
+	background-position: center;
+	background-size: 100% 100%;
+	
+}
+h1 {
+	font-size: 56px;
+	font-style: italic;
+	color: #ff6a00;
+	
+}
+#fecha {
+	position: relative;
+	left: 10px;
+	top: 5px;
+	font-size: 12px;
+	font-weight: normal;
+}
+.titulares {
+	text-align: center;
+	margin: auto;
+	width: 50%;
+}
+.article {
+border: 5px solid black;
+padding-left: 10px;
+margin-bottom: 15px;
+margin-left: 10px;
+}	
+p {
+	color: #ccff00;
+	font-size: 24px;
+	font-weight: bold;
+}
+img {
+	/*border: 2px dotted red;*/
+}
+iframe {
+	border: 5px solid red;
+	position: bottom right;
+	
+}
+#logotipo {
+	width: 30%;
+	position: relative;
+	left: 10px;
+	top: 0;
+}
+a{ 
+color: white;
+}

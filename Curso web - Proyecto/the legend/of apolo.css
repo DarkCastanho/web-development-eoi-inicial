@@ -1,0 +1,24 @@
+@charset "utf-8";
+*{ box-sizing: border-box; }
+
+#etinombre { grid-area: etinombre; }
+#nombre { grid-area: nombre; }
+#etimail { grid-area: etimail; }
+#mail { grid-area: mail; }
+#eticomen { grid-area: eticomen; }
+#comen { grid-area: comen; }
+#env { grid-area: env; }
+
+#contenedor {
+	display: grid;
+	grid-template-areas: 'etinombre nombre'
+			'etimail mail'
+			'eticomen comen'
+			'env .';
+		padding: 10px;
+		grid-gap: 10px;
+}
+
+#field {
+	width: 50%;
+}

@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+
+
+#pri {
+	background-color: blue;
+}
+#pri:hover {
+	display: none;
+}
+
+#seg {
+	background-color: yellow;
+}
+#seg:hover {
+	background-color: red;
+}
+
+/*#ter {
+	background-color: blue;
+}*/
+.tercio {
+	border: 2px solid black;
+	height: 200px;
+	width: 33%;
+}
